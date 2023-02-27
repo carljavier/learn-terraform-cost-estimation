@@ -3,6 +3,9 @@ import "decimal"
 
 param monthly_cost default 50
 
+print("the monthly cost is", monthly_cost) 
+
+
 delta_monthly_cost = decimal.new(tfrun.cost_estimate.delta_monthly_cost)
 
 main = rule {
